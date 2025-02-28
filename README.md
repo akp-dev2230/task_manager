@@ -1,16 +1,36 @@
-# task_manager
+# 📋 Task Manager App
 
-A new Flutter project.
+A **simple and efficient task management** application built using **Flutter**. The app allows users to **create, edit, and manage tasks** with features like **due dates, priority levels, and dark mode support**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+✅ Add new tasks with a name, due date, and priority  
+✅ Mark tasks as **completed**  
+✅ Delete tasks  
+✅ Store tasks **persistently** using `SharedPreferences`  
+✅ **Dark mode** support  
+✅ **Responsive UI** with `Material 3`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used
+
+- **Flutter** (Dart)
+- **State Management**: `setState` (Can be extended to GetX or Bloc)
+- **Persistent Storage**: `SharedPreferences`
+- **Material 3 Design**
+
+---
+
+## 📂 Project Structure
+
+
+## 📂 Dependency Used
+dependencies:
+flutter:
+sdk: flutter
+shared_preferences: ^2.0.15
+
+
